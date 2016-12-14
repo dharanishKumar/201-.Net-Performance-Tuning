@@ -66,6 +66,7 @@
     </Compile>
     <Compile Include="ActiveDirectoryManager.cs" />
     <Compile Include="ActiveDirectoryManagerMocked.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="IActiveDirectoryManager.cs" />
     <Compile Include="IProfileManager.cs" />
     <Compile Include="ProfileManager.cs" />
@@ -88,6 +89,15 @@
       <Project>{da2f43be-834f-4559-9a20-7265178e54a8}</Project>
       <Name>MT.CSGPortal.Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.20.1\analyzers\Google.Protobuf.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.20.1\analyzers\SonarAnalyzer.CSharp.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.20.1\analyzers\SonarAnalyzer.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

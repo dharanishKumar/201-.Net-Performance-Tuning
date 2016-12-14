@@ -1,0 +1,15 @@
+﻿
+// This file is used by Code Analysis to maintain SuppressMessage 
+// attributes that are applied to this project.
+// Project-level suppressions either have no target or are given 
+// a specific target and scoped to a namespace, type, member, etc.
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S2933:Make \"ldapServer\" \"readonly\".", Justification = "<Pending>", Scope = "member", Target = "~F:MT.CSGPortal.BL.ActiveDirectoryManager.ldapServer")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S2933:Make \"rootContainerPath\" \"readonly\".", Justification = "<Pending>", Scope = "member", Target = "~F:MT.CSGPortal.BL.ActiveDirectoryManager.rootContainerPath")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S1854:Remove this useless assignment to local variable \"profile\".", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ActiveDirectoryManager.GetMindFullProfileById(System.String)~MT.CSGPortal.Portable.Entities.MindFullProfile")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S1854:Remove this useless assignment to local variable \"results\".", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ActiveDirectoryManager.Search(System.String)~System.Collections.Generic.List{MT.CSGPortal.Portable.Entities.Mind}")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S125:Remove this commented out code.", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ActiveDirectoryManager.Search(System.String,System.Byte)~MT.CSGPortal.Entities.SearchResult{MT.CSGPortal.Portable.Entities.MindBasicProfile}")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S2930:\"Dispose\" of \"img\".", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ActiveDirectoryManagerMocked.GetImage(System.String)~System.Byte[]")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S1854:Remove this useless assignment to local variable \"mindProfileLstObj\".", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ProfileManager.SearchMinds(System.String,System.Int32)~MT.CSGPortal.Entities.SearchResult{MT.CSGPortal.Portable.Entities.MindBasicProfile}")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S1854:Remove this useless assignment to local variable \"fullProfileAd\".", Justification = "<Pending>", Scope = "member", Target = "~M:MT.CSGPortal.BL.ProfileManager.SyncProfileDetailsByMId(System.String)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Build", "S101:Rename class \"ADMocked\" to match camel case naming rules, consider using \"AdMocked\".", Justification = "<Pending>", Scope = "type", Target = "~T:MT.CSGPortal.BL.ADMocked")]
